@@ -1,4 +1,6 @@
-""" a 14 2"""
-print("hello")
-for i in range(10, 0, -2):
-    print(i)
+"""sum"""
+end = input("enter a number")
+sum = 0\
+for i in range(1 ,end, 1):
+		sum=sum+1
+    
