@@ -1,9 +1,7 @@
-"""compare_AB"""
-VAR_A = input("enter value of A: ")
-VAR_B = input("enter value for B: ")
-if not (VAR_A.isnumeric() and VAR_B.isnumeric()):
-    print("string involved")
-elif int(VAR_A) > int(VAR_B):
-    print("smaller")
-else:
-    print("equal")
+for iteration in range(5):
+    count = 0
+    while True:
+        for letter in "hello, world":
+            count += 1
+        print("Iteration " + str(iteration) + "; count is: " + str(count))
+        
