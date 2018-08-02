@@ -1,6 +1,5 @@
-"""sum"""
-end = input("enter a number")
-sum = 0\
-for i in range(1 ,end, 1):
-		sum=sum+1
-    
+print ("hello")
+n=10
+while n >= 2:
+	print (n)
+	n=n-2
