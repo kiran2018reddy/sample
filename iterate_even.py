@@ -1,6 +1,6 @@
 """ loop2 """
-n=2
-while(n<=10):
-    print (n)
-    n=n+2
+N = 2
+while N <= 10:
+    print(N)
+    N = N + 2
 print("Goodbye!")
