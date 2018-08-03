@@ -1,16 +1,6 @@
-# Write a python program to find if the given number is a perfect cube or not
-# using guess and check algorithm
-
-# testcase 1
-# Input: 24389
-# Output: 24389 is a perfect cube
-
-# testcase 2
-# Input: 21950
-# Output: 21950 is not a perfect cube
-
+"""cube"""
 def main():
-	# input is captured in s
+	"""cube"""
     y_1 = int(input())
     guess_1 = 0
     for guess_1 in range(abs(y_1)+1):
