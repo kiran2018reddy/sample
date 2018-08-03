@@ -11,6 +11,6 @@ def main():
     else:
         if y_1 < 0:
             guess_1 = -guess_1
-    print(str(y_1), 'is a perfect cube')
+        print(str(y_1), 'is a perfect cube')
 if __name__ == "__main__":
     main()
